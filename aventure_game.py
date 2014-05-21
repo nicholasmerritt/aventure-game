@@ -174,7 +174,7 @@ def fight(who_fight=None):
             enemy_choice = random.choice(enemy.get_inventory())
             player.hit(enemy_choice)
             print 'You got away, but were hit by the ' + \
-            str(enemy) +"'s " + str(enemy_choice) +'!' + '\n' )
+            str(enemy) +"'s " + str(enemy_choice) +'!' + '\n'
             raw_input('You sustained ' + str(enemy_choice.get_damage()) +' damage.\n')
             if player.get_health() <= 0:
                 return 'death'

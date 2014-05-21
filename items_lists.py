@@ -113,10 +113,11 @@ master_monsters_dict = {
 	
 	'tiny_monsters':	[
 						helpful.Being('Spider',40,[helpful.Item('Venom Sac',0,30)]),
-						helpful.Being('Cat',35,[helpful.Item('Claw',0,20)])
+						helpful.Being('Cat',35,[helpful.Item('Claw',0,20)]),
+						helpful.Being('Rat',45,[helpful.Item('Claw',0,20)])
 						],
 
-	'small_monsters':	[ #have money, yo
+	'small_monsters':	[ #TODO have money, yo
 						helpful.Being('Goblin',50,None,30),
 						helpful.Being('Hobgoblin',50,None,30),
 						helpful.Being('Orc',55,None,35)
@@ -140,8 +141,11 @@ master_monsters_dict = {
 	}
 
 boss_list =				[
+						helpful.Being('Goblin King',700,[
+														 helpful.Item('Skull Staff',0,101)
+														]),
 						helpful.Being('Dragon',700),
-						helpful.Being('Demon Kumquat',700)
+						helpful.Being('Giant Kumquat Monster',700)
 						]
 
 def random_monster(category=None):
