@@ -1,0 +1,50 @@
+(lp1
+(lp2
+S'Gutis'
+p3
+aI54
+aa(lp4
+S'The Superior John'
+p5
+aI8
+aa(lp6
+S'horatio spaffold'
+p7
+aI6
+aa(lp8
+S'Juan Carlos'
+p9
+aI4
+aa(lp10
+S'Buck'
+p11
+aI4
+aa(lp12
+S'Anita'
+p13
+aI1
+aa(lp14
+S'Bill'
+p15
+aI1
+aa(lp16
+S'Lynn'
+p17
+aI0
+aa(lp18
+S'Billiam'
+p19
+aI0
+aa(lp20
+S'Billiam'
+p21
+aI0
+aa(lp22
+S'Nameless One'
+p23
+aI0
+aa(lp24
+S'Nameless One'
+p25
+aI0
+aa.
